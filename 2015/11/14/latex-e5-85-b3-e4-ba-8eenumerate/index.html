@@ -3,18 +3,28 @@
 <head>
   <meta charset="utf-8">
   
-  <title>New Post | The Place for Writing</title>
+  <title>[LaTeX] 关于enumerate | The Place for Writing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="Enumerate 是$\LaTeX$ 中一个用来实现列表的环境，相信大多数接触过LaTeX 的同学都不会对这个环境太陌生。正常情况下enumerate 可以说是一个非常好用的功能，但是在某些特殊情况下，我们需要修改标签的排列方式，这时我们就要用到enumerate环境配套的宏包了。
+\usepackage{enumerate}
+\begin{document}
+This is a latex e">
 <meta property="og:type" content="article">
-<meta property="og:title" content="New Post">
-<meta property="og:url" content="http://yoursite.com/2016/01/20/New-Post/index.html">
+<meta property="og:title" content="[LaTeX] 关于enumerate">
+<meta property="og:url" content="http://yoursite.com/2015/11/14/latex-e5-85-b3-e4-ba-8eenumerate/index.html">
 <meta property="og:site_name" content="The Place for Writing">
-<meta property="og:description">
-<meta property="og:updated_time" content="2016-01-20T23:51:43.000Z">
+<meta property="og:description" content="Enumerate 是$\LaTeX$ 中一个用来实现列表的环境，相信大多数接触过LaTeX 的同学都不会对这个环境太陌生。正常情况下enumerate 可以说是一个非常好用的功能，但是在某些特殊情况下，我们需要修改标签的排列方式，这时我们就要用到enumerate环境配套的宏包了。
+\usepackage{enumerate}
+\begin{document}
+This is a latex e">
+<meta property="og:image" content="http://theplaceforwriting.me/wp-content/uploads/2015/11/屏幕快照-2015-11-14-下午3.40.15.png">
+<meta property="og:updated_time" content="2016-01-21T15:22:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="New Post">
-<meta name="twitter:description">
+<meta name="twitter:title" content="[LaTeX] 关于enumerate">
+<meta name="twitter:description" content="Enumerate 是$\LaTeX$ 中一个用来实现列表的环境，相信大多数接触过LaTeX 的同学都不会对这个环境太陌生。正常情况下enumerate 可以说是一个非常好用的功能，但是在某些特殊情况下，我们需要修改标签的排列方式，这时我们就要用到enumerate环境配套的宏包了。
+\usepackage{enumerate}
+\begin{document}
+This is a latex e">
   
     <link rel="alternate" href="/atom.xml" title="The Place for Writing" type="application/atom+xml">
   
@@ -61,12 +71,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-latex-e5-85-b3-e4-ba-8eenumerate" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/The-Place-for-Writing/2016/01/20/New-Post/" class="article-date">
-  <time datetime="2016-01-20T23:51:43.000Z" itemprop="datePublished">2016-01-20</time>
+    <a href="/The-Place-for-Writing/2015/11/14/latex-e5-85-b3-e4-ba-8eenumerate/" class="article-date">
+  <time datetime="2015-11-14T21:38:00.000Z" itemprop="datePublished">2015-11-14</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/The-Place-for-Writing/categories/根目录/">根目录</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -75,7 +89,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      New Post
+      [LaTeX] 关于enumerate
     </h1>
   
 
@@ -83,11 +97,25 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>Enumerate 是$\LaTeX$ 中一个用来实现列表的环境，相信大多数接触过LaTeX 的同学都不会对这个环境太陌生。正常情况下enumerate 可以说是一个非常好用的功能，但是在某些特殊情况下，我们需要修改标签的排列方式，这时我们就要用到enumerate环境配套的宏包了。</p>
+<pre class="lang:tex decode:true ">\usepackage{enumerate}
+\begin{document}
+This is a latex example
+    \begin{enumerate}[(a)]
+    \item this is a item example
+        \item this is another item example
+    \end{enumerate}
+\end{document}</pre>
+
+<p>代码的效果如下图所示，</p>
+<p><a href="http://theplaceforwriting.me/wp-content/uploads/2015/11/屏幕快照-2015-11-14-下午3.40.15.png" target="_blank" rel="external"><img src="http://theplaceforwriting.me/wp-content/uploads/2015/11/屏幕快照-2015-11-14-下午3.40.15.png" alt="屏幕快照 2015-11-14 下午3.40.15"></a></p>
+<p>其中你需要注意的， 一定要使用enumerate 宏包，不然是没有办法显示上图的效果的。 其次环境开头所用的[(a)] 可以替换成A, I, i， 1, 计数器会识别为对应的大小写字母或者罗马数字。其三，如果还有更特别的列表，[ ]中还可以定义更多种标签，你还可以直接使用\item[] 在方框内对每一个标签进行定义。</p>
+<p>Reference:<br>En.wikibooks.org, (2015). LaTeX/List Structures - Wikibooks, open books for an open world. [online] Available at: <a href="https://en.wikibooks.org/wiki/LaTeX/List_Structures" target="_blank" rel="external">https://en.wikibooks.org/wiki/LaTeX/List_Structures</a> [Accessed 14 Nov. 2015].</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/20/New-Post/" data-id="cijoeqcth0000mp8z98ktms30" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/11/14/latex-e5-85-b3-e4-ba-8eenumerate/" data-id="cijoeqcu70007mp8zpalzh1v2" class="article-share-link">Share</a>
       
       
     </footer>
@@ -96,10 +124,19 @@
     
 <nav id="article-nav">
   
+    <a href="/The-Place-for-Writing/2016/01/18/latex-e5-85-b3-e4-ba-8e-e5-a4-9a-e8-a1-8c-e5-85-ac-e5-bc-8f/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          [LaTeX] 关于多行公式
+        
+      </div>
+    </a>
   
-    <a href="/The-Place-for-Writing/2016/01/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/The-Place-for-Writing/2015/10/19/latex-e6-ae-b5-e8-90-bd-e7-bc-a9-e8-bf-9b/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">[LaTeX] 关于段落缩进</div>
     </a>
   
 </nav>

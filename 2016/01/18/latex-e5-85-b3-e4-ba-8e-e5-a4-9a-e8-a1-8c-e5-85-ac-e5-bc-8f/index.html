@@ -3,18 +3,27 @@
 <head>
   <meta charset="utf-8">
   
-  <title>New Post | The Place for Writing</title>
+  <title>[LaTeX] 关于多行公式 | The Place for Writing</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description">
+  <meta name="description" content="很多情况下会遇到推导公式的时候需要连等的情况，aligned 基本上能满足大部分需要。这里先把代码简单放上来。
+$$\begin{aligned}
+    V(s) &amp;amp; =  \frac{A}{s}+\frac{Bs+C}{s^2+6s+25}\\
+    -\frac{24s^2+144s-2500}{s(s^2+6s+25)} &amp;amp; =  \frac{A}{s}+\frac{Bs">
 <meta property="og:type" content="article">
-<meta property="og:title" content="New Post">
-<meta property="og:url" content="http://yoursite.com/2016/01/20/New-Post/index.html">
+<meta property="og:title" content="[LaTeX] 关于多行公式">
+<meta property="og:url" content="http://yoursite.com/2016/01/18/latex-e5-85-b3-e4-ba-8e-e5-a4-9a-e8-a1-8c-e5-85-ac-e5-bc-8f/index.html">
 <meta property="og:site_name" content="The Place for Writing">
-<meta property="og:description">
-<meta property="og:updated_time" content="2016-01-20T23:51:43.000Z">
+<meta property="og:description" content="很多情况下会遇到推导公式的时候需要连等的情况，aligned 基本上能满足大部分需要。这里先把代码简单放上来。
+$$\begin{aligned}
+    V(s) &amp;amp; =  \frac{A}{s}+\frac{Bs+C}{s^2+6s+25}\\
+    -\frac{24s^2+144s-2500}{s(s^2+6s+25)} &amp;amp; =  \frac{A}{s}+\frac{Bs">
+<meta property="og:updated_time" content="2016-01-21T15:22:22.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="New Post">
-<meta name="twitter:description">
+<meta name="twitter:title" content="[LaTeX] 关于多行公式">
+<meta name="twitter:description" content="很多情况下会遇到推导公式的时候需要连等的情况，aligned 基本上能满足大部分需要。这里先把代码简单放上来。
+$$\begin{aligned}
+    V(s) &amp;amp; =  \frac{A}{s}+\frac{Bs+C}{s^2+6s+25}\\
+    -\frac{24s^2+144s-2500}{s(s^2+6s+25)} &amp;amp; =  \frac{A}{s}+\frac{Bs">
   
     <link rel="alternate" href="/atom.xml" title="The Place for Writing" type="application/atom+xml">
   
@@ -61,12 +70,16 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main"><article id="post-New-Post" class="article article-type-post" itemscope itemprop="blogPost">
+        <section id="main"><article id="post-latex-e5-85-b3-e4-ba-8e-e5-a4-9a-e8-a1-8c-e5-85-ac-e5-bc-8f" class="article article-type-post" itemscope itemprop="blogPost">
   <div class="article-meta">
-    <a href="/The-Place-for-Writing/2016/01/20/New-Post/" class="article-date">
-  <time datetime="2016-01-20T23:51:43.000Z" itemprop="datePublished">2016-01-20</time>
+    <a href="/The-Place-for-Writing/2016/01/18/latex-e5-85-b3-e4-ba-8e-e5-a4-9a-e8-a1-8c-e5-85-ac-e5-bc-8f/" class="article-date">
+  <time datetime="2016-01-18T16:51:14.000Z" itemprop="datePublished">2016-01-18</time>
 </a>
     
+  <div class="article-category">
+    <a class="article-category-link" href="/The-Place-for-Writing/categories/根目录/">根目录</a>
+  </div>
+
   </div>
   <div class="article-inner">
     
@@ -75,7 +88,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      New Post
+      [LaTeX] 关于多行公式
     </h1>
   
 
@@ -83,11 +96,20 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        
+        <p>很多情况下会遇到推导公式的时候需要连等的情况，aligned 基本上能满足大部分需要。这里先把代码简单放上来。</p>
+<pre class="lang:tex decode:true ">$$\begin{aligned}
+    V(s) &amp; =  \frac{A}{s}+\frac{Bs+C}{s^2+6s+25}\\
+    -\frac{24s^2+144s-2500}{s(s^2+6s+25)} &amp; =  \frac{A}{s}+\frac{Bs+C}{s^2+6s+25}\\
+    -24s^2-144s+2500 &amp; = A(s^2+6s+25)+(Bs+C)s\\
+    -24s^2-144s+2500 &amp; = (A+B)s^2+(6A+C)s+25A\\
+    \end{aligned}$$</pre>
+
+<p>注意到这里最重要的一点是整个包必须是在数学模式下的，其次就是’&amp;’定义了整个公式的对齐方式，一般情况下放在等号的左边，具体情况类似表格。</p>
+
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2016/01/20/New-Post/" data-id="cijoeqcth0000mp8z98ktms30" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2016/01/18/latex-e5-85-b3-e4-ba-8e-e5-a4-9a-e8-a1-8c-e5-85-ac-e5-bc-8f/" data-id="cijoeqcuc000amp8zz9ws3k71" class="article-share-link">Share</a>
       
       
     </footer>
@@ -96,10 +118,19 @@
     
 <nav id="article-nav">
   
+    <a href="/The-Place-for-Writing/2016/01/18/ef-bc-bblatex-e5-b8-b8-e7-94-a8-e5-85-ac-e5-bc-8f/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          ［LaTeX] 常用公式
+        
+      </div>
+    </a>
   
-    <a href="/The-Place-for-Writing/2016/01/20/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+  
+    <a href="/The-Place-for-Writing/2015/11/14/latex-e5-85-b3-e4-ba-8eenumerate/" id="article-nav-older" class="article-nav-link-wrap">
       <strong class="article-nav-caption">Older</strong>
-      <div class="article-nav-title">Hello World</div>
+      <div class="article-nav-title">[LaTeX] 关于enumerate</div>
     </a>
   
 </nav>
