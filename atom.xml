@@ -3,16 +3,16 @@
   <title><![CDATA[The Place for Writing]]></title>
   
   <link href="/The-Place-for-Writing/atom.xml" rel="self"/>
-  <link href="http://yoursite.com/"/>
+  <link href="http://stevewang1007.github.io/"/>
   <updated>2016-01-22T06:19:30.000Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://stevewang1007.github.io/</id>
   
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
     <title><![CDATA[new]]></title>
-    <link href="http://yoursite.com/2016/01/21/%5B-%5D%E5%85%B3%E4%BA%8Ehexo/"/>
-    <id>http://yoursite.com/2016/01/21/[-]关于hexo/</id>
+    <link href="http://stevewang1007.github.io/2016/01/21/%5B-%5D%E5%85%B3%E4%BA%8Ehexo/"/>
+    <id>http://stevewang1007.github.io/2016/01/21/[-]关于hexo/</id>
     <published>2016-01-22T05:58:49.000Z</published>
     <updated>2016-01-22T06:19:30.000Z</updated>
     <content type="html"></content>
@@ -20,18 +20,18 @@
     
     </summary>
     
-      <category term="Hexo.io" scheme="http://yoursite.com/tags/Hexo-io/"/>
+      <category term="Hexo.io" scheme="http://stevewang1007.github.io/tags/Hexo-io/"/>
     
-      <category term="Syntax Highlight" scheme="http://yoursite.com/tags/Syntax-Highlight/"/>
+      <category term="Syntax Highlight" scheme="http://stevewang1007.github.io/tags/Syntax-Highlight/"/>
     
-      <category term="Hexo" scheme="http://yoursite.com/categories/Hexo/"/>
+      <category term="Hexo" scheme="http://stevewang1007.github.io/categories/Hexo/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[Hello World]]></title>
-    <link href="http://yoursite.com/2016/01/21/hello-world/"/>
-    <id>http://yoursite.com/2016/01/21/hello-world/</id>
+    <link href="http://stevewang1007.github.io/2016/01/21/hello-world/"/>
+    <id>http://stevewang1007.github.io/2016/01/21/hello-world/</id>
     <published>2016-01-22T03:17:55.000Z</published>
     <updated>2016-01-22T03:17:55.000Z</updated>
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
@@ -52,8 +52,8 @@
   
   <entry>
     <title><![CDATA[[LaTeX] 常用数学公式]]></title>
-    <link href="http://yoursite.com/2016/01/18/%5BLaTeX%5D%20%E5%B8%B8%E7%94%A8%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
-    <id>http://yoursite.com/2016/01/18/[LaTeX] 常用数学公式/</id>
+    <link href="http://stevewang1007.github.io/2016/01/18/%5BLaTeX%5D%20%E5%B8%B8%E7%94%A8%E6%95%B0%E5%AD%A6%E5%85%AC%E5%BC%8F/"/>
+    <id>http://stevewang1007.github.io/2016/01/18/[LaTeX] 常用数学公式/</id>
     <published>2016-01-18T16:55:18.000Z</published>
     <updated>2016-01-21T22:34:34.000Z</updated>
     <content type="html"><![CDATA[<p>[latexpage]鉴于我实在是不想到处找这些$\LaTeX$公式的命令了， 我就简单的把公式列在这里，不定期更新。<br>[table id=1 /]</p>
@@ -63,14 +63,14 @@
 ]]>
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[[LaTeX] 关于多行公式]]></title>
-    <link href="http://yoursite.com/2016/01/18/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F/"/>
-    <id>http://yoursite.com/2016/01/18/[LaTeX] 关于多行公式/</id>
+    <link href="http://stevewang1007.github.io/2016/01/18/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%A4%9A%E8%A1%8C%E5%85%AC%E5%BC%8F/"/>
+    <id>http://stevewang1007.github.io/2016/01/18/[LaTeX] 关于多行公式/</id>
     <published>2016-01-18T16:51:14.000Z</published>
     <updated>2016-01-21T22:37:26.000Z</updated>
     <content type="html"><![CDATA[<p>很多情况下会遇到推导公式的时候需要连等的情况，aligned 基本上能满足大部分需要。这里先把代码简单放上来。</p>
@@ -82,14 +82,14 @@
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class=]]>
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[[LaTeX] 关于enumerate]]></title>
-    <link href="http://yoursite.com/2015/11/14/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8Eenumerate/"/>
-    <id>http://yoursite.com/2015/11/14/[LaTeX] 关于enumerate/</id>
+    <link href="http://stevewang1007.github.io/2015/11/14/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8Eenumerate/"/>
+    <id>http://stevewang1007.github.io/2015/11/14/[LaTeX] 关于enumerate/</id>
     <published>2015-11-14T21:38:00.000Z</published>
     <updated>2016-01-22T06:06:01.000Z</updated>
     <content type="html"><![CDATA[<p>Enumerate 是$\LaTeX$ 中一个用来实现列表的环境，相信大多数接触过LaTeX 的同学都不会对这个环境太陌生。正常情况下enumerate 可以说是一个非常好用的功能，但是在某些特殊情况下，我们需要修改标签的排列方式，这时我们就要用到enumerate环境配套的宏包了。<br><a id="more"></a></p>
@@ -102,14 +102,14 @@
     
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[[LaTeX] 关于段落缩进]]></title>
-    <link href="http://yoursite.com/2015/10/19/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E6%AE%B5%E8%90%BD%E7%BC%A9%E8%BF%9B/"/>
-    <id>http://yoursite.com/2015/10/19/[LaTeX] 关于段落缩进/</id>
+    <link href="http://stevewang1007.github.io/2015/10/19/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E6%AE%B5%E8%90%BD%E7%BC%A9%E8%BF%9B/"/>
+    <id>http://stevewang1007.github.io/2015/10/19/[LaTeX] 关于段落缩进/</id>
     <published>2015-10-20T02:49:06.000Z</published>
     <updated>2016-03-15T18:59:11.000Z</updated>
     <content type="html"><![CDATA[<p>接着上一篇文章继续说，在写assignment的过程中， 假设你已经在左侧插了图片，开始在右侧写答案，这时如果文字超过了图片，文字就会自动回复正常的缩进，但是你是一个一用$\LaTeX$就会变成处女座的人，总是希望自己的证明过程在右边整齐的排成一列，怎么做呢？</p>
@@ -124,14 +124,14 @@
 <p]]>
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[[LaTeX] 关于图片环绕]]></title>
-    <link href="http://yoursite.com/2015/10/19/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E7%8E%AF%E7%BB%95/"/>
-    <id>http://yoursite.com/2015/10/19/[LaTeX] 关于图片环绕/</id>
+    <link href="http://stevewang1007.github.io/2015/10/19/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87%E7%8E%AF%E7%BB%95/"/>
+    <id>http://stevewang1007.github.io/2015/10/19/[LaTeX] 关于图片环绕/</id>
     <published>2015-10-20T02:14:44.000Z</published>
     <updated>2016-01-21T22:35:20.000Z</updated>
     <content type="html"><![CDATA[<p>在$\LaTeX$ 插入图片时， 还有一种情况会非常讨厌， 就是图片环绕。正常写论文报告还好，基本上图文是分离的，然而如果尝试过用LaTeX写assignment, 在每一道题旁边都要插图的话， 设置环绕就非常必要了。不多说废话，接下来是代码:</p>
@@ -144,14 +144,14 @@
 <figure cl]]>
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[[LaTeX] 关于图片/表格并排]]></title>
-    <link href="http://yoursite.com/2015/10/06/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87:%E8%A1%A8%E6%A0%BC%E5%B9%B6%E6%8E%92/"/>
-    <id>http://yoursite.com/2015/10/06/[LaTeX] 关于图片:表格并排/</id>
+    <link href="http://stevewang1007.github.io/2015/10/06/%5BLaTeX%5D%20%E5%85%B3%E4%BA%8E%E5%9B%BE%E7%89%87:%E8%A1%A8%E6%A0%BC%E5%B9%B6%E6%8E%92/"/>
+    <id>http://stevewang1007.github.io/2015/10/06/[LaTeX] 关于图片:表格并排/</id>
     <published>2015-10-07T04:14:34.000Z</published>
     <updated>2016-01-21T22:36:17.000Z</updated>
     <content type="html"><![CDATA[<p>新博客的第一篇文章，写一点比较有意义的。对于大多数刚接触[latex]\LaTeX[/latex]的同学来说，插入图片是最痛苦的。 大小，位置，文字环绕，如果你仅仅凭自己摸索的话， 个把小时也不会有什么结果。 这也是我创建这个博客的最初想法，相比于其他的语言，LaTeX 实在是太依赖一个可靠的框架了。好了，废话不多说，进入正题。<br>目前图片并排最可靠的解决方法是minipage，</p>
@@ -162,7 +162,7 @@
     <![CDATA[<p>新博客的第一篇文章，写一点比较有意义的。对于大多数刚接触[latex]\LaTeX[/latex]的同学来说，插入图片是最痛苦的。 大小，位置，文字环绕，如果你仅仅凭自己摸索的话， 个把小时也不会有什么结果。 这也是我创建这个博客的最初想法，相比于其他的语言，LaTeX 实]]>
     </summary>
     
-      <category term="LaTeX" scheme="http://yoursite.com/categories/LaTeX/"/>
+      <category term="LaTeX" scheme="http://stevewang1007.github.io/categories/LaTeX/"/>
     
   </entry>
   
