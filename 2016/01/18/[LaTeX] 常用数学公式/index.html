@@ -100,6 +100,8 @@
 
 
 
+
+
   
   
     
@@ -134,7 +136,7 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
@@ -148,7 +150,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/The-Place-for-Writing/categories" rel="section">
+          <a href="/categories" rel="section">
             
               <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
             
@@ -158,7 +160,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/The-Place-for-Writing/archives" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
@@ -168,7 +170,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/The-Place-for-Writing/tags" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
@@ -177,8 +179,6 @@
         </li>
       
 
-      
-      
       
     </ul>
   
@@ -269,6 +269,7 @@
 
           
           
+
         </div>
       </header>
     
@@ -282,6 +283,12 @@
       
         <p>[latexpage]鉴于我实在是不想到处找这些$\LaTeX$公式的命令了， 我就简单的把公式列在这里，不定期更新。<br>[table id=1 /]</p>
 
+      
+    </div>
+
+    <div>
+      
+        
       
     </div>
 
@@ -300,7 +307,7 @@
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/The-Place-for-Writing/2016/01/20/hello-world/" rel="prev" title="Hello World">
+              <a href="/The-Place-for-Writing/2016/01/21/hello-world/" rel="prev" title="Hello World">
                 Hello World <i class="fa fa-chevron-right"></i>
               </a>
             
@@ -376,25 +383,29 @@
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
-            <a href="/The-Place-for-Writing/archives">
-              <span class="site-state-item-count">7</span>
+            <a href="/archives">
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            <a href="/The-Place-for-Writing/categories">
-              <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">分类</span>
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
               </a>
-          </div>
+            </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/The-Place-for-Writing/tags">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">标签</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -414,7 +425,8 @@
         
         
 
-        <div class="links-of-author motion-element">
+        
+        <div class="links-of-blogroll motion-element">
           
         </div>
 
@@ -454,7 +466,7 @@
   &copy; 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder"></span>
 </div>
@@ -475,7 +487,9 @@
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -483,6 +497,14 @@
 
   
 
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
 
 
   <script type="text/javascript" src="/The-Place-for-Writing/vendors/jquery/index.js?v=2.1.3"></script>
@@ -662,7 +684,7 @@
     NexT.motion.middleWares.sidebar = function () {
       var $tocContent = $('.post-toc-content');
 
-      if (CONFIG.sidebar === 'post') {
+      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
         if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
           NexT.utils.displaySidebar();
         }
@@ -711,6 +733,7 @@
 
   
   
+  
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
@@ -736,7 +759,6 @@
   
 
 
-  
   
 
 

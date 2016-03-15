@@ -69,7 +69,7 @@
 <meta property="og:description" content="接着上一篇文章继续说，在写assignment的过程中， 假设你已经在左侧插了图片，开始在右侧写答案，这时如果文字超过了图片，文字就会自动回复正常的缩进，但是你是一个一用$\LaTeX$就会变成处女座的人，总是希望自己的证明过程在右边整齐的排成一列，怎么做呢？
 当然你可以使用神奇的\qquad 比如这样：
 1234$$\qquad \qquad \qquad \qquad \ \alpha I_0">
-<meta property="og:updated_time" content="2016-01-21T22:32:51.000Z">
+<meta property="og:updated_time" content="2016-03-15T18:59:11.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="[LaTeX] 关于段落缩进">
 <meta name="twitter:description" content="接着上一篇文章继续说，在写assignment的过程中， 假设你已经在左侧插了图片，开始在右侧写答案，这时如果文字超过了图片，文字就会自动回复正常的缩进，但是你是一个一用$\LaTeX$就会变成处女座的人，总是希望自己的证明过程在右边整齐的排成一列，怎么做呢？
@@ -98,6 +98,8 @@
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
 
   
+
+
 
 
 
@@ -140,7 +142,7 @@
   
 
   
-    <ul id="menu" class="menu ">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
@@ -154,7 +156,7 @@
       
         
         <li class="menu-item menu-item-categories">
-          <a href="/The-Place-for-Writing/categories" rel="section">
+          <a href="/categories" rel="section">
             
               <i class="menu-item-icon fa fa-th fa-fw"></i> <br />
             
@@ -164,7 +166,7 @@
       
         
         <li class="menu-item menu-item-archives">
-          <a href="/The-Place-for-Writing/archives" rel="section">
+          <a href="/archives" rel="section">
             
               <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
             
@@ -174,7 +176,7 @@
       
         
         <li class="menu-item menu-item-tags">
-          <a href="/The-Place-for-Writing/tags" rel="section">
+          <a href="/tags" rel="section">
             
               <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
             
@@ -183,8 +185,6 @@
         </li>
       
 
-      
-      
       
     </ul>
   
@@ -275,6 +275,7 @@
 
           
           
+
         </div>
       </header>
     
@@ -290,9 +291,15 @@
 <p>当然你可以使用神奇的<code>\qquad</code> 比如这样：</p>
 <figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="formula">$$<span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\ </span><span class="command">\alpha</span> I_0=-I'$$</span></span><br><span class="line"><span class="formula">$$<span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\ </span> <span class="command">\,</span> V_0=I'<span class="command">\frac</span><span class="special">&#123;</span>R_3R_4<span class="special">&#125;</span><span class="special">&#123;</span>R_3+R_4<span class="special">&#125;</span>$$</span></span><br><span class="line"><span class="formula">$$<span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\ </span> <span class="command">\,</span> V_s=I_0(R_1+R_2)$$</span></span><br><span class="line"><span class="formula">$$<span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\qquad</span> <span class="command">\ </span> <span class="command">\,</span> <span class="command">\left</span> |<span class="command">\frac</span><span class="special">&#123;</span>V_0<span class="special">&#125;</span><span class="special">&#123;</span>V_s<span class="special">&#125;</span><span class="command">\right</span>|=<span class="command">\left</span> |<span class="command">\frac</span><span class="special">&#123;</span>R_3R_4I'<span class="special">&#125;</span><span class="special">&#123;</span>I_0(R_1+R_2)(R_3+R_4)<span class="special">&#125;</span><span class="command">\right</span>|=10$$</span></span><br></pre></td></tr></table></figure>
 <p>有点丧心病狂是不是？ 我也是这么觉得的…… 但是只要整齐美观什么都可以放弃的，对吧？<br>当然还有更简单的方法，</p>
-<figure class="highlight xquery"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">\documentclass[letterpaper,<span class="number">10</span>pt]&#123;article&#125;</span><br><span class="line">\begin&#123;document&#125;</span><br><span class="line">    \hfill\begin&#123;minipage&#125;&#123;<span class="number">0</span>.<span class="number">7</span>\textwidth&#125;</span><br><span class="line">        $<span class="variable">$-v</span>_s+R_2(i_1-i_3)+R_4(i_1-i_2)=<span class="number">0</span>$$</span><br><span class="line">        $<span class="variable">$-1</span>\,V+<span class="number">1</span>\,\Omega (i_1-i_3)+<span class="number">1</span>\,\Omega(i_1-i_2)=<span class="number">0</span>$$</span><br><span class="line">        $<span class="variable">$2i</span>_1-i_2-i_3-<span class="number">1</span>\,V=<span class="number">0</span>$$</span><br><span class="line">        \begin&#123;equation&#125;</span><br><span class="line">        <span class="number">2</span>i_1-<span class="number">1</span>=i_2+i_3</span><br><span class="line">        \<span class="keyword">end</span>&#123;equation&#125;</span><br><span class="line">        $\qquad \qquad$ <span class="number">3</span>\. Apply KVL <span class="keyword">to</span> mesh <span class="number">2</span>, $<span class="variable">$-v</span>_4+v_3+v_5=<span class="number">0</span>$$</span><br><span class="line">        $<span class="variable">$R</span>_4(i_2-i_1)+R_3(i_2-i_3)+R_5i_2=<span class="number">0</span>$$</span><br><span class="line">        \begin&#123;equation&#125;</span><br><span class="line">        <span class="number">3</span>i_2=i_1+i_3</span><br><span class="line">        \<span class="keyword">end</span>&#123;equation&#125;</span><br><span class="line">        $\qquad \qquad$ <span class="number">4</span>\. Apply KVL <span class="keyword">to</span> mesh <span class="number">3</span>, $<span class="variable">$v</span>_1-v_3-v_2=<span class="number">0</span>$$</span><br><span class="line">        $<span class="variable">$R</span>_1i_3+R_3(i_3-i_2)+R_2(i_3-i_1)=<span class="number">0</span>$$</span><br><span class="line">        $<span class="variable">$i</span>_3+i_3-i_2+i_3-i_1=<span class="number">0</span>$$</span><br><span class="line">    \<span class="keyword">end</span>&#123;minipage&#125;</span><br><span class="line">\<span class="keyword">end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight tex"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="command">\documentclass</span><span class="special">[</span>letterpaper,10pt<span class="special">]</span><span class="special">&#123;</span>article<span class="special">&#125;</span></span><br><span class="line"><span class="command">\begin</span><span class="special">&#123;</span>document<span class="special">&#125;</span></span><br><span class="line">    <span class="command">\hfill</span><span class="command">\begin</span><span class="special">&#123;</span>minipage<span class="special">&#125;</span><span class="special">&#123;</span>0.7<span class="command">\textwidth</span><span class="special">&#125;</span></span><br><span class="line">        <span class="formula">$$-v_s+R_2(i_1-i_3)+R_4(i_1-i_2)=0$$</span></span><br><span class="line">        <span class="formula">$$-1<span class="command">\,</span>V+1<span class="command">\,</span><span class="command">\Omega</span> (i_1-i_3)+1<span class="command">\,</span><span class="command">\Omega</span>(i_1-i_2)=0$$</span></span><br><span class="line">        <span class="formula">$$2i_1-i_2-i_3-1<span class="command">\,</span>V=0$$</span></span><br><span class="line">        <span class="command">\begin</span><span class="special">&#123;</span>equation<span class="special">&#125;</span></span><br><span class="line">        2i_1-1=i_2+i_3</span><br><span class="line">        <span class="command">\end</span><span class="special">&#123;</span>equation<span class="special">&#125;</span></span><br><span class="line">        <span class="formula">$<span class="command">\qquad</span> <span class="command">\qquad</span>$</span> 3<span class="command">\.</span> Apply KVL to mesh 2, <span class="formula">$$-v_4+v_3+v_5=0$$</span></span><br><span class="line">        <span class="formula">$$R_4(i_2-i_1)+R_3(i_2-i_3)+R_5i_2=0$$</span></span><br><span class="line">        <span class="command">\begin</span><span class="special">&#123;</span>equation<span class="special">&#125;</span></span><br><span class="line">        3i_2=i_1+i_3</span><br><span class="line">        <span class="command">\end</span><span class="special">&#123;</span>equation<span class="special">&#125;</span></span><br><span class="line">        <span class="formula">$<span class="command">\qquad</span> <span class="command">\qquad</span>$</span> 4<span class="command">\.</span> Apply KVL to mesh 3, <span class="formula">$$v_1-v_3-v_2=0$$</span></span><br><span class="line">        <span class="formula">$$R_1i_3+R_3(i_3-i_2)+R_2(i_3-i_1)=0$$</span></span><br><span class="line">        <span class="formula">$$i_3+i_3-i_2+i_3-i_1=0$$</span></span><br><span class="line">    <span class="command">\end</span><span class="special">&#123;</span>minipage<span class="special">&#125;</span></span><br><span class="line"><span class="command">\end</span><span class="special">&#123;</span>document<span class="special">&#125;</span></span><br></pre></td></tr></table></figure>
 <p>虽然还是有很多数学空格但是至少没那么丧心病狂了。 注意事项：1. 注意有\hfill不然不会起作用。\hfill 填充了左侧的空白所以才能缩进，一定不能忘。 2. minipage 的参数设定的是block内文字的宽度。 3. 如果block内的文字超出了页面范围整个block都会换到下一页去，至于latex如何判断是否超出页面至今没有搞懂，多尝试几次或者你已经掌握了规律请在下面留言。4. 可以和wrapfigure 搭配使用，但是图片会和整个block平行，所以自己选择。 5. 内容什么的就不要管了，反正我也看不懂。</p>
 
+      
+    </div>
+
+    <div>
+      
+        
       
     </div>
 
@@ -387,25 +394,29 @@
         </div>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
-            <a href="/The-Place-for-Writing/archives">
-              <span class="site-state-item-count">7</span>
+            <a href="/archives">
+              <span class="site-state-item-count">8</span>
               <span class="site-state-item-name">日志</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            <a href="/The-Place-for-Writing/categories">
-              <span class="site-state-item-count">1</span>
-              <span class="site-state-item-name">分类</span>
+          
+            <div class="site-state-item site-state-categories">
+              <a href="/categories">
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分类</span>
               </a>
-          </div>
+            </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/The-Place-for-Writing/tags">
-              <span class="site-state-item-count">0</span>
-              <span class="site-state-item-name">标签</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">3</span>
+                <span class="site-state-item-name">标签</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -425,7 +436,8 @@
         
         
 
-        <div class="links-of-author motion-element">
+        
+        <div class="links-of-blogroll motion-element">
           
         </div>
 
@@ -465,7 +477,7 @@
   &copy; 
   <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart fa fa-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder"></span>
 </div>
@@ -486,7 +498,9 @@
       </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
   
@@ -494,6 +508,14 @@
 
   
 
+
+
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
 
 
   <script type="text/javascript" src="/The-Place-for-Writing/vendors/jquery/index.js?v=2.1.3"></script>
@@ -673,7 +695,7 @@
     NexT.motion.middleWares.sidebar = function () {
       var $tocContent = $('.post-toc-content');
 
-      if (CONFIG.sidebar === 'post') {
+      if (CONFIG.scheme !== 'Pisces' && (CONFIG.sidebar.display === 'post' || CONFIG.sidebar.display === 'always')) {
         if ($tocContent.length > 0 && $tocContent.html().trim().length > 0) {
           NexT.utils.displaySidebar();
         }
@@ -722,6 +744,7 @@
 
   
   
+  
   <script type="text/x-mathjax-config">
     MathJax.Hub.Config({
       tex2jax: {
@@ -747,7 +770,6 @@
   
 
 
-  
   
 
 
